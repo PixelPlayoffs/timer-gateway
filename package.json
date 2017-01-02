@@ -1,0 +1,24 @@
+{
+  "name": "pp-streamtimer-svc",
+  "version": "0.0.1",
+  "description": "Stream timer to clients",
+  "main": "node app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EntertainmentInteractive/pp-streamtimer-svc.git"
+  },
+  "author": "Ian Philpot",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EntertainmentInteractive/pp-streamtimer-svc/issues"
+  },
+  "homepage": "https://github.com/EntertainmentInteractive/pp-streamtimer-svc#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "redis": "^2.6.3",
+    "socket.io": "^1.7.2"
+  }
+}
